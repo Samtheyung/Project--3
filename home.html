@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Jinga</title>
+</head>
+
+<style>
+    #main_title{
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+
+    #small-menu{
+        background-color: rgb(200, 106, 189);
+        padding: 4px;
+        color:#fff
+    }
+
+   
+    #footer{
+        background-color: turquoise;
+        padding-top: 20px;
+        text-align: center;
+        height:80px;
+    }
+
+    @keyframes content {
+        0%   {color: red;}
+        25%  {color: yellow;}
+        50%  {color: blue;}
+        100% {color: green;}
+
+        /* from {background-color: red;}
+        to {background-color: yellow;} */
+                
+    }
+
+    #content{
+        background-image: url(background_1.jpg);
+        min-height: 200px;
+        background-size: 100% auto;
+        text-align: center;
+        padding: 50px;
+        
+    }
+
+
+    #CV1{
+        max-width: 170px;
+        width: 100%;
+        min-width: 130px;;
+        background-color: rgba(200, 106, 189, 0.9);
+        height:220px;
+        display:inline-block;
+        margin:4px;
+        vertical-align: top;
+        color:#fff;
+        padding:4px;
+        animation-name: content;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        word-wrap: break-word;
+        /* visibility: hidden ; */ 
+        transition: width 2s, height 2s, transform 2s;
+    }
+
+    
+    #CV2{
+        max-width: 170px;
+        width: 100%;
+        min-width: 130px;;
+        background-color: rgba(200, 106, 189, 0.9);
+        height:220px;
+        display:inline-block;
+        margin:4px;
+        vertical-align: top;
+        color:#fff;
+        padding:4px;
+        animation-name: content;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        transition: width 2s, height 2s, transform 2s;
+        word-wrap: break-word;
+    }
+
+    
+    #CV3{
+        max-width: 170px;
+        width: 100%;
+        min-width: 130px;;
+        background-color: rgba(200, 106, 189, 0.9);
+        height:220px;
+        display:inline-block;
+        margin:4px;
+        vertical-align: top;
+        color:#fff;
+        padding:4px;
+        animation-name: content;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        word-wrap: break-word;
+        transition: width 2s, height 2s, transform 2s;
+    }
+
+    
+    #CV4{
+        max-width: 170px;
+        width: 100%;
+        min-width: 130px;;
+        background-color: rgba(200, 106, 189, 0.9);
+        height:220px;
+        display:inline-block;
+        margin:4px;
+        vertical-align: top;
+        color:#fff;
+        padding:4px;
+        animation-name: content;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        word-wrap: break-word;
+        transition: width 2s, height 2s, transform 2s;
+    }
+
+    
+    #CV5{
+        max-width: 170px;
+        width: 100%;
+        min-width: 130px;;
+        background-color: rgba(200, 106, 189, 0.9);
+        height:220px;
+        display:inline-block;
+        margin:4px;
+        vertical-align: top;
+        color:#fff;
+        padding:4px;
+        animation-name: content;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        word-wrap: break-word;
+        transition: width 2s, height 2s, transform 2s;
+    }
+
+    
+    #CV6{
+        max-width: 170px;
+        width: 100%;
+        min-width: 130px;;
+        background-color: rgba(200, 106, 189, 0.9);
+        height:220px;
+        display:inline-block;
+        margin:4px;
+        vertical-align: top;
+        color:#fff;
+        padding:4px;
+        animation-name: content;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        word-wrap: break-word;
+        transition: width 2s, height 2s, transform 2s;
+    }
+
+
+
+
+
+
+    #CV1:hover{
+        color:yellow;
+        border-radius: 5%;
+        transform:rotate(360deg);
+    }
+
+    #CV2:hover{
+        color:yellow;
+        border-radius: 5%;
+        transform:rotate(360deg);
+        
+    }
+
+    #CV3:hover{
+        color:yellow;
+        border-radius: 5%;
+        transform:rotate(360deg);
+    }
+
+    #CV4:hover{
+        color:yellow;
+        border-radius: 5%;
+        transform:rotate(360deg);
+    }
+
+    #CV5:hover{
+        color:yellow;
+        border-radius: 5%;
+        transform:rotate(360deg);
+    }
+
+    #CV6:hover{
+        color:yellow;
+        border-radius: 5%;
+        transform:rotate(360deg);
+    }
+
+    #cv-title{
+        background-color:turquoise;
+        color:#fff;
+        padding:4px;
+        margin-bottom: 10px;
+    }
+
+    @media screen and (max-width:500px){
+
+        #big_menu{
+            display: none;
+        }
+
+    }
+
+    @media screen and (min-width:501px){
+
+        #small_menu{
+            display: none;
+        }
+
+        }
+
+        .facebook {
+  background: #3B5998;
+  color: white;
+  background-image: url(facebook.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+  background-image: url(instagram.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+  background-image: url(gmail.png);
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+  background-image: url(linkedin.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+  background-image: url(whatsapp.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.icon-bar a {
+  display: inline-block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  transition: width 2s, height 2s;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+
+}
+
+#Ref{
+    opacity:0;
+}
+#Ref:hover{
+    opacity: 100;
+    transition: 0.4s;
+    transition-duration: infinite;
+    
+}
+
+@keyframes qualities {
+    50% {text-shadow: 5px 10px 20px red;}
+    
+}
+
+#big_menu{
+    animation-duration: infinite;
+    animation-iteration-count: infinite;
+    animation-name: qualities;
+}
+
+
+
+
+    
+    
+    </style>
+<body style="font-family: cursive; background-color:rgb(119, 8, 62);">
+    <div id="wrapper" style="max-width: 800px;min-width: 350px; margin: auto;">
+
+        <div class="icon-bar">
+            
+            <a href="https://www.instagram.com/sam_the_yung/" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="mailto:samueljinga@gmail.com" class="google"><i class="fa fa-google"></i></a>
+            <a href="https://www.linkedin.com/in/samuel-jinga-6b53b5180/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+           
+          </div>
+        <div id="main_title">
+            <span style="color:yellow;">Samuel Jinga's</span>
+            <span style="color:blue;">Technical</span>
+            <span style="color:white;">CV</span>
+        </div>
+    
+        <div id="small-menu"> <a href="#CV1"  style="text-decoration: none;">Skills </a> . <a href="#CV2" style="text-decoration: none;"> Educational Qualifications</a> . <a href="#CV3"  style="text-decoration: none;"> Professional Qualifications</a> . <a href="#CV4"  style="text-decoration: none;"> Experience</a> .<a href="#CV5"  style="text-decoration: none;"> Hobbies</a> . <a href="#CV6" style="text-decoration: none;"> References</a></div>
+        <img style="width:100%;" id="header" src="background_2.jpg">
+        <div id="big_menu" style="background-color: turquoise; color: black;" >
+                Qualities: Hard Worker, Fluent in english, Always willing to learn & in love with coding
+        </div>
+
+        <div id="content">
+            <div id="CV1"><div id="cv-title" class="Ref">Skills</div> <span id="Ref">JAVA <br> C# <br> Python <br> C++ <br> HTML <br> CSS <br> PHP <br>MYSQL/MYSQLI</span></div>
+            <div id="CV2"><div id="cv-title" class="Ref">Educational Qualifications</div><span id="Ref">Matric Certificate (2015)</span></div>
+            <div id="CV3"><div id="cv-title" class="Ref">Professional Qualifications</div><span id="Ref">Huawei Mobile Money Function Delivery Certificate (2016)</span></div>
+            <div id="CV4"><div id="cv-title" class="Ref">Experience</div><span id="Ref"> Huawei Mobile Money Function Delivey (May 16 2016 - June 3 2016)</span></div>
+            <div id="CV5"><div id="cv-title" class="Ref">References</div> <span id="Ref"> Tawedzerwa Jinga(Head Service Delivery) - Tawedzerwa.jinga@veneka.com, +27 73 028 7528</span></div>
+            <div id="CV6"><div id="cv-title" class="Ref">Hobbies</div> <span id="Ref">Watching Soccer<br>Listening to music<br>Playing Games</span></div>
+        </div>
+        <div id="footer">Samuel Jinga Technical CV 2021. All Rights Reserved</div>
+    </div>
+</body>
+</html>
